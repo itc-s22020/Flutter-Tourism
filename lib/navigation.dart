@@ -6,18 +6,14 @@ void navigateToPage(int index, BuildContext context) {
   displayState?.navigateTo(index);
 }
 
-void toHome(BuildContext context) {
+void toRoute(BuildContext context) {
   navigateToPage(0, context);
 }
 
-void toHotel(BuildContext context) {
+void toHome(BuildContext context) {
   navigateToPage(1, context);
 }
 
-void toRoute(BuildContext context) {
-  navigateToPage(2, context);
-}
-
 void toSpot(BuildContext context) {
-  navigateToPage(3, context);
+  navigateToPage(2, context);
 }

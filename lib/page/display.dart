@@ -4,7 +4,6 @@ import 'package:tourism/page/spot.dart';
 
 import '../ui/bottom_navigation.dart';
 import 'home.dart';
-import 'hotel.dart';
 
 class Display extends StatefulWidget {
   const Display({super.key});
@@ -14,12 +13,11 @@ class Display extends StatefulWidget {
 }
 
 class DisplayState extends State<Display> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 1;
 
   final List<Widget> _pages = [
-    const HomePage(),
-    const HotelPage(),
     const RoutePage(),
+    const HomePage(),
     const SpotPage(),
   ];
 
