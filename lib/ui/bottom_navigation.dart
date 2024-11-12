@@ -16,7 +16,7 @@ class BottomNavigation extends StatelessWidget {
       items: const <BottomNavigationBarItem>[
 
         BottomNavigationBarItem(
-          icon: Icon(Icons.route),
+          icon: Icon(Icons.date_range),
           label: 'Route',
         ),
         BottomNavigationBarItem(
@@ -24,7 +24,7 @@ class BottomNavigation extends StatelessWidget {
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.place),
+          icon: Icon(Icons.key),
           label: 'Spot',
         ),
       ],

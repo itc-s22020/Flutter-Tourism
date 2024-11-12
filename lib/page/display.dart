@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tourism/page/route.dart';
-import 'package:tourism/page/spot.dart';
+import 'package:tourism/page/log.dart';
+import 'package:tourism/page/key.dart';
 
 import '../ui/bottom_navigation.dart';
 import 'home.dart';
@@ -16,9 +16,9 @@ class DisplayState extends State<Display> {
   int _selectedIndex = 1;
 
   final List<Widget> _pages = [
-    const RoutePage(),
+    const LogPage(),
     const HomePage(),
-    const SpotPage(),
+    const KeyPage(),
   ];
 
   void navigateTo(int index) {

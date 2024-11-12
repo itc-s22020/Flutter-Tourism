@@ -6,7 +6,7 @@ void navigateToPage(int index, BuildContext context) {
   displayState?.navigateTo(index);
 }
 
-void toRoute(BuildContext context) {
+void toLog(BuildContext context) {
   navigateToPage(0, context);
 }
 
@@ -14,6 +14,6 @@ void toHome(BuildContext context) {
   navigateToPage(1, context);
 }
 
-void toSpot(BuildContext context) {
+void toKey(BuildContext context) {
   navigateToPage(2, context);
 }

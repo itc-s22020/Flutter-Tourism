@@ -15,9 +15,9 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                toSpot(context);
+                toKey(context);
               },
-              child: const Text("toRoutePage"),
+              child: const Text("toHotelPage"),
             ),
           ],
         ),
