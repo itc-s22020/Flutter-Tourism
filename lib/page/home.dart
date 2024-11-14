@@ -3,6 +3,7 @@ import '../ui/light_button.dart';
 import '../ui/ticket.dart';
 import '../ui/ticket_bottom.dart';
 import '../ui/ticket_top.dart';
+import 'camera.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -68,7 +69,11 @@ class HomePage extends StatelessWidget {
                 children: [
                   LightButton(
                     onPressed: () {
-                      //::TODO 顔認証処理
+                      //::TODO 顔認証処理 仮実装
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const CameraPage()),
+                      );
                     },
                     icon: Icons.face,
                     label: '顔認証の登録',
